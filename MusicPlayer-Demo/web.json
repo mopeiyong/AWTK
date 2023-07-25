@@ -1,0 +1,27 @@
+{
+  "name":"MusicPlayer-Demo",
+  "app_type":"c",
+  "version":"1.0",
+  "assets" : "res_800_480/assets",
+  "includes":[
+    "src/"
+  ],
+  "sources":[
+    "src/window_main.c", 
+    "src/dialog_advanced.c", 
+    "src/dialog_equalizer.c", 
+    "src/window_play_list.c", 
+	"src/base/*.c",     
+	"src/custom_function/*.c", 
+    "src/custom_widgets/custom_widgets.c", 
+    "src/custom_widgets/chart/*.c", 
+    "src/custom_widgets/photo_frame/frame_view.c", 
+	"src/custom_widgets/pie_slice/pie_slice.c"
+  ],
+  "config" : {
+  	"width":"800",
+	"height":"480",
+    "fontScale":"0.7",
+    "defaultFont":"sans"
+  }
+}
